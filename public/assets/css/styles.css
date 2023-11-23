@@ -482,6 +482,8 @@
             user-select: none;
     position: relative;
     z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
 .notification-area li {
@@ -499,7 +501,7 @@
 }
 
 .notification-area li>i {
-    font-size: 26px;
+    font-size: 32px;
     color: #bdbcbc;
     vertical-align: middle;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.12);

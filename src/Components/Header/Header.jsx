@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+    UserButton,
+  } from "@clerk/clerk-react";
 
 const Header = () => {
   return (
@@ -163,7 +166,7 @@ const Header = () => {
                                 </div>
                             </li>
                             <li className="settings-btn">
-                                <i className="ti-settings"></i>
+                            <UserButton />
                             </li>
                         </ul>
                     </div>
